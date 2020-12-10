@@ -58,8 +58,10 @@ Answer the following questions about `curl`:
 - `-X`
 
 12. Which `curl` option is used to set request headers?
+- `-H`
 
 13. Which `curl` option is used to view the response header?
+- `-v`
 
 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
 
@@ -76,6 +78,7 @@ Answer the following questions about sessions and cookies:
     Content-type: text/html
     Set-Cookie: cart=Bob
     ```
+- Set-Cookie:
 
 16. Which request header will continue the client's session?
 
@@ -84,6 +87,7 @@ Answer the following questions about sessions and cookies:
     Host: www.example.org
     Cookie: cart=Bob
     ```
+- Cookie
 
 #### Example HTTP Requests and Responses
 
@@ -105,12 +109,15 @@ username=Barbara&password=password
 ```
 
 17. What is the request method?
+- POST
 
 18. Which header expresses the client's preference for an encrypted response?
+- Upgrade-Insecure-Requests
 
 19. Does the request have a user session associated with it?
 
 20. What kind of data is being sent from this request body?
+- Credentials
 
 **HTTP Response**
 
@@ -132,24 +139,32 @@ X-XSS-Protection: 1; mode=block
 ```
 
 21. What is the response status code?
+- 200
 
 22. What web server is handling this HTTP response?
+- Apache
 
 23. Does this response have a user session associated to it?
+- Yes
 
 24. What kind of content is likely to be in the [page content] response body?
+- HTML
 
 25. If your class covered security headers, what security request headers have been included?
+- X-XSS-Protection
 
 #### Monoliths and Microservices
 
 Answer the following questions about monoliths and microservices:
 
 26. What are the individual components of microservices called?
+- Service
 
 27. What is a service that writes to a database and communicates to other services?
+- API
 
 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
+- Modularity
 
 #### Deploying and Testing a Container Set
 
