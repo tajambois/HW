@@ -115,6 +115,7 @@ username=Barbara&password=password
 - Upgrade-Insecure-Requests
 
 19. Does the request have a user session associated with it?
+- No
 
 20. What kind of data is being sent from this request body?
 - Credentials
@@ -179,10 +180,13 @@ Answer the following questions about multi-container deployment:
 #### Databases
 
 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
+- `SELECT * FROM customers`
 
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
+`INSERT INTO`
 
 33. Why would we never run `DELETE FROM <table-name>;` by itself?
+- It would delete the entire table
 
 ---
 
