@@ -18,7 +18,7 @@ Before you work through the questions below, please create a new file and record
 Answer the following questions about the HTTP request and response process.
 
 1. What type of architecture does the HTTP request and response process occur in?
--- Client-server architecture model
+- Client-server architecture model
 
 2. What are the different parts of an HTTP request?
 - Request and Response
@@ -49,8 +49,13 @@ Answer the following questions about the HTTP request and response process.
 Answer the following questions about `curl`:
 
 10. What are the advantages of using `curl` over the browser?
+- Test web server security config.
+- Ensure web servers don't provide incorrect data through HTTP responses.
+- Verify servers only respond to specific request types.
+- Look for vulnerabilities on a web server.
 
 11. Which `curl` option is used to change the request method?
+- `-X`
 
 12. Which `curl` option is used to set request headers?
 
